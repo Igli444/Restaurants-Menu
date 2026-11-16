@@ -1,0 +1,56 @@
+<?php
+
+return [
+    'password_recovery' => [
+        'identifier' => 'E-mail/Emri i përdoruesit',
+        'recovery_token' => 'E-mail/Emri i përdoruesit',
+        'reset_token' => 'Krijo një fjalëkalim të ri',
+        'channel' => 'Mënyra e dërgimit',
+        'code' => 'Kodi i verifikimit',
+        'challenge_token' => 'Kodi i verifikimit',
+        'password' => 'Fjalëkalimi i ri',
+    ],
+    'auth' => [
+        'identifier' => 'E-mail/Emri i përdoruesit',
+        'password' => 'Fjalëkalimi',
+    ],
+    'passkeys' => [
+        'name' => 'Emri i passkey-t',
+        'credential' => 'Kredenciali i passkey-t',
+    ],
+    'two_factor' => [
+        'challenge_token' => 'Kërkesa e verifikimit të hyrjes',
+        'code' => 'Kodi i verifikimit ose rikuperimit',
+        'method' => 'Metoda e autentikimit',
+        'current_password' => 'Fjalëkalimi aktual',
+    ],
+    'users' => [
+        'branch_id' => 'Dega',
+        'name' => 'Emri',
+        'username' => 'Emri i përdoruesit',
+        'email' => 'E-mail',
+        'password' => 'Fjalëkalimi',
+        'password_confirmation' => 'Konfirmo fjalëkalimin',
+        'gender' => 'Gjinia',
+        'is_active' => 'Aktiv',
+        'role' => 'Roli',
+        'current_password' => 'Fjalëkalimi aktual',
+        'logout_from_other_devices' => 'Dilni nga pajisjet e tjera',
+        'phone_country_iso_code' => 'Shteti i telefonit',
+        'phone' => 'Telefoni',
+        'birthdate' => 'Data e lindjes',
+        'note' => 'Shënim',
+        'customer_type' => 'Lloji i klientit',
+        'registration_number' => 'Numri i regjistrimit',
+        'vat_tin' => 'NIPT/TVSH',
+        'profile_photo' => 'Avatari',
+        'remove_profile_photo' => 'Hiq avatarin',
+        'printer_id' => 'Printeri',
+        'category_slugs' => 'Kategoria',
+    ],
+    'roles' => [
+        'display_name' => 'Emri',
+        'permissions' => 'Lejet',
+        'permissions.*' => 'Leja',
+    ],
+];

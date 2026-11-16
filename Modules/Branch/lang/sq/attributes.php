@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'branches' => [
+        'name' => 'Emri',
+        'phone' => 'Telefoni',
+        'email' => 'Email',
+        'country_code' => 'Shteti',
+        'timezone' => 'Zona kohore',
+        'currency' => 'Monedha',
+        'latitude' => 'Gjerësia gjeografike',
+        'longitude' => 'Gjatësia gjeografike',
+        'is_active' => 'Aktiv',
+        'order_types' => 'Llojet e porosisë',
+        'order_types.*' => 'Lloji i porosisë',
+        'payment_methods' => 'Metodat e pagesës',
+        'payment_methods.*' => 'Metoda e pagesës',
+        'quick_pay_amounts' => 'Shumat e pagesës së shpejtë',
+        'quick_pay_amounts.*' => 'Shuma e pagesës së shpejtë',
+        'registration_number' => 'Numri i regjistrimit',
+        'cash_difference_threshold' => 'Kufiri i diferencës së parave',
+        'legal_name' => 'Emri ligjor',
+        'vat_tin' => 'NIPT/TVSH',
+        'address_line1' => 'Adresa rreshti 1',
+        'address_line2' => 'Adresa rreshti 2',
+        'city' => 'Qyteti',
+        'state' => 'Shteti/Krahina',
+        'postal_code' => 'Kodi postar',
+    ],
+];
